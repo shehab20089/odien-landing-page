@@ -125,3 +125,37 @@ h3 {
   font-size: 24px;
   text-align: right;
 }
+
+/* ************************************************** */
+/* call to action section   styles */
+/* ************************************************** */
+.actions-container {
+  padding-inline: 350px;
+  padding-block: 100px;
+}
+.call-to-action {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  align-items: center;
+  padding: 2rem;
+  padding-inline: 6rem;
+}
+h4 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.actions-container p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.actions-container button {
+  background-color: #3882f6;
+  padding-inline: 1.5rem;
+  padding-block: 0.5rem;
+  font-size: 18px;
+  border: 1px solid white;
+  color: #e5e7eb;
+  border-radius: 5px;
+}
