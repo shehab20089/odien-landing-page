@@ -159,3 +159,15 @@ h4 {
   color: #e5e7eb;
   border-radius: 5px;
 }
+
+/* ************************************************** */
+/* footer    styles */
+/* ************************************************** */
+.footer {
+  background-color: #1f2937;
+  padding: 2rem;
+}
+.footer p {
+  text-align: center;
+  color: #e5e7eb;
+}
