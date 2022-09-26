@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 /* ************************************************** */
 /* Header styles */
 /* ************************************************** */
@@ -71,3 +72,39 @@ h1 {
 /* ************************************************** */
 /* main content  styles */
 /* ************************************************** */
+.main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-inline: 500px;
+  padding-bottom: 500px;
+}
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.info-item p {
+  text-align: center;
+}
+.item-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 8px;
+  border: 3px solid #3882f6;
+}
